@@ -6,6 +6,7 @@ var webpack = require('webpack'),
   HtmlWebpackPlugin = require('html-webpack-plugin'),
   TerserPlugin = require('terser-webpack-plugin');
 var { CleanWebpackPlugin } = require('clean-webpack-plugin');
+require('dotenv').config();
 
 const ASSET_PATH = process.env.ASSET_PATH || '/';
 
